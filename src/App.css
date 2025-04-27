@@ -7,6 +7,7 @@
 
 .maindiv{
   margin-left: 5vw;
+  margin-left: 70%;
 }
 
 body{
@@ -32,7 +33,7 @@ body{
 .res-col{
   width: 600px;
   height: 180px;
-  margin-left: 100px;
+  margin-top: -300px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 
 border: 1px solid rgba(255, 255, 255, 0.18);

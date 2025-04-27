@@ -69,8 +69,8 @@ function App() {
     <div className="maindiv container-fluid">
       <Navbar className="nav">
         <Container>
-          <Navbar.Brand href="#home">
-            <i class="fa-solid fa-dumbbell"></i> BMI Calculator
+          <Navbar.Brand className="text-center" href="#home">
+             BMI Calculator
           </Navbar.Brand>
         </Container>
       </Navbar>
@@ -125,14 +125,15 @@ function App() {
               </Button>
             </div>
           </div>
-          <div className="res-col">
+         
+        </div>
+        <div className="res-col">
             <div>
               <h2 className="text-center res-h2">Your Result</h2>
             <h5 value={result || ''} className="text-center p-3 bmiresult">{result}</h5>
             <p className="p-2 text-justify bmidescription">{desc}</p>
             </div>
           </div>
-        </div>
       </div>
       </div>
     </>
