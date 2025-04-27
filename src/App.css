@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.maindiv{
+  margin-left: 5vw;
+}
+
+body{
+  background-color: rgb(228, 221, 221);
+}
+
+.nav{
+  background-color: rgb(51, 139, 183);
+  color: white;
+}
+
+
+.second-sub{
+  min-height: 80vh;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.calculator-col{
+  width: 500px ;
+}
+
+.res-col{
+  width: 600px;
+  height: 180px;
+  margin-left: 100px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+border: 1px solid rgba(255, 255, 255, 0.18);
+border-radius: 20px;
+color: rgb(36, 128, 162);
+}
+
+.res-h2{
+  text-decoration: underline;
+}
+
+.bmiresult{
+  color: rgb(93, 129, 22);
+}
+
+
+.bmidescription{
+  color: rgb(64, 83, 146);
+  font-size: 18px;
+  text-align: justify;
+}
